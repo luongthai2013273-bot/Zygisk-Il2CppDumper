@@ -31,6 +31,7 @@ set(CMAKE_MODULE_LINKER_FLAGS "${CMAKE_MODULE_LINKER_FLAGS} ${LINKER_FLAGS}")
 # CHỈ GIỮ LẠI main.cpp (đã gộp logic)
 add_library(${MODULE_NAME} SHARED
     main.cpp
+    ultis.cpp
 )
 
 # Link với các thư viện cần thiết
